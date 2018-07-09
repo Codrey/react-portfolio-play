@@ -1,9 +1,7 @@
-
-
 nav {
     display: flex;
     justify-content: space-between;
-    background-color: pink;
+    background-color: rgb(15, 108, 170);
     align-items: center;
     padding-right: 20px;
     padding-left: 20px;
@@ -11,7 +9,7 @@ nav {
 
 .logo {
     font-size: 33px;
-    color: rgb(44, 158, 147);
+    color: rgb(50, 166, 212);
 }
 
 nav ul {
@@ -25,5 +23,5 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(44, 158, 147);
+    color: rgb(50, 166, 212);
 }
