@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-// import './index.css';
+import './index.css';
 import Navigation from './Navigation';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<Navigation />, document.getElementById('root'));
+ReactDOM.render(<Navigation logoTitle="React Portfolio"/>, document.getElementById('root'));
 registerServiceWorker();

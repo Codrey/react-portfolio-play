@@ -4,16 +4,19 @@ import './Navigation.css';
 
 class Navigation extends Component {
   render() {
+    const sections = ['Home', 'About', 'services', 'Portfolio', 'Contact' ]
+    const navLinks = sections.map( section => {
+        return (
+            <li><a href={'#' + section }>{section}</a></li>
+        )
+
+    });
     return (
         <nav className="Navigation">
-            <h2 className="logo"> Codrey's 1st React Project </h2>
+            <h2 className="logo">{this.props.logoTitle}</h2>
 
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Serices</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
+                {navLinks}
             </ul>
         </nav>
 
